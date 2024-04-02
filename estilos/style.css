@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+body{
+    background-image: linear-gradient(to top, var(--color01), var(--color02));
+}
+
 *{
     --color01: #6064A6;
     --color02: #8956A3;
@@ -36,6 +40,8 @@ section#login{
     width: 250px;
     height: 500px;
     border-radius: 20px;
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
 }
 
 section#login div#imagem{
